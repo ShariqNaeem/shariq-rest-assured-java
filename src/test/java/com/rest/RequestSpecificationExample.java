@@ -80,12 +80,16 @@ public class RequestSpecificationExample {
                 );
     }
 
+
+    // Here are the syntax to change from BDD to NON-BDD
     @Test
     public void statusCodeValidation() {
-        Response response= given().spec(requestSpecification)
-                .when()
-                .get("/api/users");
-
+        Response response = requestSpecification.get("/api/users").then().log().all().extract().response();
         assertThat(response.statusCode(), is(equalTo(200)));
+    }
+    @Test
+    public void responseBodyValidation() {
+        Response response = requestSpecification.get("/api/users").then().log().all().extract().response();
+        assertThat(response.path("data[0].email"), is(equalTo("george.bluth@reqres.in")));
     }
 }

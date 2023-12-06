@@ -58,7 +58,7 @@
       <recent name="com.rest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RequestSpecificationExample.statusCode">
+  <component name="RunManager" selected="TestNG.RequestSpecificationExample.responseBodyValidation">
     <configuration name="RequestSpecificationExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
@@ -70,24 +70,6 @@
       <option name="PACKAGE_NAME" value="com.rest" />
       <option name="MAIN_CLASS_NAME" value="com.rest.RequestSpecificationExample" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RequestSpecificationExample.ExampleRequestSpecification" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shariq-rest-assured-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.RequestSpecificationExample" />
-      <option name="METHOD_NAME" value="ExampleRequestSpecification" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -112,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RequestSpecificationExample.HamcrestMatcherAssertionsCollection" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RequestSpecificationExample.responseBodyValidation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
         <pattern>
@@ -122,7 +104,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.rest" />
       <option name="MAIN_CLASS_NAME" value="com.rest.RequestSpecificationExample" />
-      <option name="METHOD_NAME" value="HamcrestMatcherAssertionsCollection" />
+      <option name="METHOD_NAME" value="responseBodyValidation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,13 +130,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RequestSpecificationExample.statusCodeValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shariq-rest-assured-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.RequestSpecificationExample" />
+      <option name="METHOD_NAME" value="statusCodeValidation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RequestSpecificationExample.responseBodyValidation" />
+        <item itemvalue="TestNG.RequestSpecificationExample.statusCodeValidation" />
         <item itemvalue="TestNG.RequestSpecificationExample.statusCode" />
         <item itemvalue="TestNG.RequestSpecificationExample" />
         <item itemvalue="TestNG.RequestSpecificationExample.ExampleRequestSpecification2" />
-        <item itemvalue="TestNG.RequestSpecificationExample.ExampleRequestSpecification" />
-        <item itemvalue="TestNG.RequestSpecificationExample.HamcrestMatcherAssertionsCollection" />
       </list>
     </recent_temporary>
   </component>
