@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8c1510b0-22ca-4e0b-b57e-2ba08897a2a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/rest/RequestBuilderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rest/RequestBuilderExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rest/RestRequestBuilderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rest/RestRequestBuilderExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <recent name="com.rest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RestRequestBuilderExample">
+  <component name="RunManager" selected="TestNG.RestRequestBuilderExample.queryTest">
     <configuration name="RequestBuilderExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
@@ -87,24 +87,6 @@
       <option name="PACKAGE_NAME" value="com.rest" />
       <option name="MAIN_CLASS_NAME" value="com.rest.RequestSpecificationExample" />
       <option name="METHOD_NAME" value="responseBodyValidation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RequestSpecificationExample.statusCode" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shariq-rest-assured-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.RequestSpecificationExample" />
-      <option name="METHOD_NAME" value="statusCode" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,13 +129,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RestRequestBuilderExample.queryTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shariq-rest-assured-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.RestRequestBuilderExample" />
+      <option name="METHOD_NAME" value="queryTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RestRequestBuilderExample.queryTest" />
         <item itemvalue="TestNG.RestRequestBuilderExample" />
         <item itemvalue="TestNG.RequestBuilderExample" />
         <item itemvalue="TestNG.RequestSpecificationExample.responseBodyValidation" />
         <item itemvalue="TestNG.RequestSpecificationExample.statusCodeValidation" />
-        <item itemvalue="TestNG.RequestSpecificationExample.statusCode" />
       </list>
     </recent_temporary>
   </component>
