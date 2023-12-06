@@ -58,7 +58,7 @@
       <recent name="com.rest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RequestBuilderExample">
+  <component name="RunManager" selected="TestNG.RestRequestBuilderExample">
     <configuration name="RequestBuilderExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
@@ -69,23 +69,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.rest" />
       <option name="MAIN_CLASS_NAME" value="com.rest.RequestBuilderExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RequestSpecificationExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shariq-rest-assured-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.RequestSpecificationExample" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -147,13 +130,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RestRequestBuilderExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shariq-rest-assured-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.RestRequestBuilderExample" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RestRequestBuilderExample" />
         <item itemvalue="TestNG.RequestBuilderExample" />
         <item itemvalue="TestNG.RequestSpecificationExample.responseBodyValidation" />
         <item itemvalue="TestNG.RequestSpecificationExample.statusCodeValidation" />
         <item itemvalue="TestNG.RequestSpecificationExample.statusCode" />
-        <item itemvalue="TestNG.RequestSpecificationExample" />
       </list>
     </recent_temporary>
   </component>
