@@ -1,11 +1,13 @@
 package com.rest;
 
+import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.with;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class RequestSpecificationExample {
@@ -16,7 +18,8 @@ public class RequestSpecificationExample {
     public void init(){
         requestSpecification = with() // we can use given() method as well
                 .baseUri("https://reqres.in")
-                .queryParam("page=2");
+                .queryParam("page=2")
+                .log().all(); // for logging te request
     }
     @Test
     public void ExampleRequestSpecification() {
@@ -75,5 +78,14 @@ public class RequestSpecificationExample {
                         ),
                         "data[3]", hasEntry("id", 4)
                 );
+    }
+
+    @Test
+    public void statusCodeValidation() {
+        Response response= given().spec(requestSpecification)
+                .when()
+                .get("/api/users");
+
+        assertThat(response.statusCode(), is(equalTo(200)));
     }
 }

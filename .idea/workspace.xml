@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1510b0-22ca-4e0b-b57e-2ba08897a2a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/RequestSpecificationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/specifications/MyClassImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/specifications/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/specifications/MyMainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rest/RequestSpecificationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rest/RequestSpecificationExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,20 +58,7 @@
       <recent name="com.rest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RequestSpecificationExample">
-    <configuration name="MyMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rest.specifications.MyMainClass" />
-      <module name="shariq-rest-assured-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rest.specifications.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.RequestSpecificationExample.statusCode">
     <configuration name="RequestSpecificationExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
@@ -146,13 +130,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RequestSpecificationExample.statusCode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shariq-rest-assured-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.RequestSpecificationExample" />
+      <option name="METHOD_NAME" value="statusCode" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RequestSpecificationExample.statusCode" />
         <item itemvalue="TestNG.RequestSpecificationExample" />
         <item itemvalue="TestNG.RequestSpecificationExample.ExampleRequestSpecification2" />
         <item itemvalue="TestNG.RequestSpecificationExample.ExampleRequestSpecification" />
         <item itemvalue="TestNG.RequestSpecificationExample.HamcrestMatcherAssertionsCollection" />
-        <item itemvalue="Application.MyMainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -169,5 +171,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/shariq_rest_assured_java$RequestSpecificationExample_ExampleRequestSpecification2.ic" NAME="RequestSpecificationExample.ExampleRequestSpecification2 Coverage Results" MODIFIED="1701785242196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rest.*</FILTER>
+    </SUITE>
   </component>
 </project>
