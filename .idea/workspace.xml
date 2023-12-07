@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1510b0-22ca-4e0b-b57e-2ba08897a2a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/RestResponseBuilderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/AutomatePOST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,25 @@
       <recent name="com.rest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RestResponseBuilderExample.statusCodeValidation">
+  <component name="RunManager" selected="TestNG.AutomatePOST.validatePostRequestInBDD">
+    <configuration name="AutomatePOST.validatePostRequestInBDD" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shariq-rest-assured-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.AutomatePOST" />
+      <option name="METHOD_NAME" value="validatePostRequestInBDD" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ResponseBuilderExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
@@ -86,24 +105,6 @@
       <option name="PACKAGE_NAME" value="com.rest" />
       <option name="MAIN_CLASS_NAME" value="com.rest.ResponseSpecificationExample" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestRequestBuilderExample.queryTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shariq-rest-assured-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.RestRequestBuilderExample" />
-      <option name="METHOD_NAME" value="queryTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -147,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AutomatePOST.validatePostRequestInBDD" />
         <item itemvalue="TestNG.RestResponseBuilderExample.statusCodeValidation" />
         <item itemvalue="TestNG.RestResponseBuilderExample" />
         <item itemvalue="TestNG.ResponseBuilderExample" />
         <item itemvalue="TestNG.ResponseSpecificationExample" />
-        <item itemvalue="TestNG.RestRequestBuilderExample.queryTest" />
       </list>
     </recent_temporary>
   </component>
