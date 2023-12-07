@@ -8,6 +8,8 @@ import io.restassured.response.Response;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
@@ -43,10 +45,7 @@ public class AutomatePOST {
 
     @Test
     public void validatePostRequestInNNonBDD() {
-        String requestPayload = "{\n" +
-                "    \"name\": \"shariq\",\n" +
-                "    \"job\": \"naeem\"\n" +
-                "}\n";
+        File requestPayload = new File("src/main/resources/createUserPayload.json");
 
         Response response = with()
                 .body(requestPayload)
