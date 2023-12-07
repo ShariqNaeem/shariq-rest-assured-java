@@ -3,13 +3,16 @@ package com.rest;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.config.EncoderConfig;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.response.Response;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Objects;
 
 import static io.restassured.RestAssured.*;
@@ -21,7 +24,11 @@ public class AutomatePOST {
     public void init() {
 
         RequestSpecBuilder requestBuilder = new RequestSpecBuilder();
-        requestBuilder.setBaseUri("https://reqres.in").log(LogDetail.ALL);
+        requestBuilder.setBaseUri("https://reqres.in")
+//                .setConfig(config.encoderConfig(EncoderConfig.encoderConfig()
+//                        .appendDefaultContentCharsetToContentTypeIfUndefined(true)))
+//                .setContentType("text/plain")
+                .log(LogDetail.ALL);
         RestAssured.requestSpecification = requestBuilder.build();
 
         ResponseSpecBuilder responseSpecBuilder = new ResponseSpecBuilder().expectStatusCode(201).log(LogDetail.ALL);
@@ -49,6 +56,14 @@ public class AutomatePOST {
     public void validatePostRequestInNNonBDD() {
         File requestPayload = new File("src/main/resources/createUserPayload.json");
 
+        Response response = with()
+                .body(requestPayload)
+                .post("/api/users");
+
+        assertThat(response.path("id"), notNullValue());
+        assertThat(response.path("createdAt"), matchesPattern("^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{1,3})?Z$"));
+
+        // Jackson Databind is required for Hashmap to json object. We et it from maven repository
         //We can use HASHMAP as well. If we have nested object than the syntax will be:
         HashMap<String, Object> mainObj= new HashMap<String, Object>();
 
@@ -60,11 +75,18 @@ public class AutomatePOST {
 
         mainObj.put("workspace", nestedObj);
 
-        Response response = with()
-                .body(requestPayload)
-                .post("/api/users");
+        // If we have array of object
+        HashMap<String, String> obj1= new HashMap<String, String>();
+        HashMap<String, String> obj2= new HashMap<String, String>();
 
-        assertThat(response.path("id"), notNullValue());
-        assertThat(response.path("createdAt"), matchesPattern("^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{1,3})?Z$"));
+        obj1.put("key1", "value1");
+        obj2.put("key1", "value1");
+
+        List<HashMap<String, String>> jsonObjList = new ArrayList<HashMap<String, String>>();
+        jsonObjList.add(obj1);
+        jsonObjList.add(obj2);
+
+        // NOTE:  jsonObjList will not work with RestAssured.responseSpecification
+
     }
 }

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1510b0-22ca-4e0b-b57e-2ba08897a2a8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/rest/AutomatePOST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rest/AutomatePOST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,7 @@
       <recent name="com.rest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AutomatePOST.validatePostRequestInBDD">
+  <component name="RunManager" selected="TestNG.AutomatePOST">
     <configuration name="AutomateDelete" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
@@ -68,6 +69,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.rest" />
       <option name="MAIN_CLASS_NAME" value="com.rest.AutomateDelete" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutomatePOST" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shariq-rest-assured-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.AutomatePOST" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -110,24 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomatePUT.validatePutRequestInNNonBDD" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shariq-rest-assured-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.AutomatePUT" />
-      <option name="METHOD_NAME" value="validatePutRequestInNNonBDD" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AutomatePUT.validatePutRequestInNonBDD" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AutomatePOST" />
         <item itemvalue="TestNG.AutomatePOST.validatePostRequestInBDD" />
         <item itemvalue="TestNG.AutomateDelete" />
         <item itemvalue="TestNG.AutomatePUT" />
         <item itemvalue="TestNG.AutomatePUT.validatePutRequestInNonBDD" />
-        <item itemvalue="TestNG.AutomatePUT.validatePutRequestInNNonBDD" />
       </list>
     </recent_temporary>
   </component>
