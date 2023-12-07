@@ -8,14 +8,13 @@ import io.restassured.response.Response;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.get;
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class AutomatePOST {
     @BeforeClass
-    public void init(){
+    public void init() {
 
         RequestSpecBuilder requestBuilder = new RequestSpecBuilder();
         requestBuilder.setBaseUri("https://reqres.in").log(LogDetail.ALL);
@@ -34,11 +33,26 @@ public class AutomatePOST {
                 "}\n";
         given()
                 .body(requestPayload)
-        .when()
+                .when()
                 .post("/api/users")
-        .then()
+                .then()
                 .assertThat()
                 .body("id", notNullValue())
-                .body("createdAt",matchesPattern("^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{1,3})?Z$"));
+                .body("createdAt", matchesPattern("^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{1,3})?Z$"));
+    }
+
+    @Test
+    public void validatePostRequestInNNonBDD() {
+        String requestPayload = "{\n" +
+                "    \"name\": \"shariq\",\n" +
+                "    \"job\": \"naeem\"\n" +
+                "}\n";
+
+        Response response = with()
+                .body(requestPayload)
+                .post("/api/users");
+
+        assertThat(response.path("id"), notNullValue());
+        assertThat(response.path("createdAt"), matchesPattern("^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{1,3})?Z$"));
     }
 }
