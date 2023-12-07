@@ -9,6 +9,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.File;
+import java.util.HashMap;
+import java.util.Objects;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -46,6 +48,17 @@ public class AutomatePOST {
     @Test
     public void validatePostRequestInNNonBDD() {
         File requestPayload = new File("src/main/resources/createUserPayload.json");
+
+        //We can use HASHMAP as well. If we have nested object than the syntax will be:
+        HashMap<String, Object> mainObj= new HashMap<String, Object>();
+
+        // Creating the nested object here
+        HashMap<String, String> nestedObj= new HashMap<String, String>();
+        nestedObj.put("key1", "value1");
+        nestedObj.put("key2", "value2");
+        nestedObj.put("key3", "value3");
+
+        mainObj.put("workspace", nestedObj);
 
         Response response = with()
                 .body(requestPayload)
