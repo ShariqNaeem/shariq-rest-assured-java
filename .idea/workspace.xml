@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1510b0-22ca-4e0b-b57e-2ba08897a2a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/temp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/UploadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiDemos-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/DownloadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,24 +59,7 @@
       <recent name="com.rest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UploadFile">
-    <configuration name="AutomateDelete" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shariq-rest-assured-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.AutomateDelete" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.DownloadFile.fileUploadTestUsingInputStream">
     <configuration name="AutomatePOST" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
@@ -112,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomatePUT" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DownloadFile.fileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +104,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.AutomatePUT" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.DownloadFile" />
+      <option name="METHOD_NAME" value="fileUploadTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloadFile.fileUploadTestUsingInputStream" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shariq-rest-assured-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.DownloadFile" />
+      <option name="METHOD_NAME" value="fileUploadTestUsingInputStream" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DownloadFile.fileUploadTestUsingInputStream" />
+        <item itemvalue="TestNG.DownloadFile.fileUploadTest" />
         <item itemvalue="TestNG.UploadFile" />
         <item itemvalue="TestNG.AutomatePOST" />
         <item itemvalue="TestNG.AutomatePOST.validatePostRequestInBDD" />
-        <item itemvalue="TestNG.AutomateDelete" />
-        <item itemvalue="TestNG.AutomatePUT" />
       </list>
     </recent_temporary>
   </component>
