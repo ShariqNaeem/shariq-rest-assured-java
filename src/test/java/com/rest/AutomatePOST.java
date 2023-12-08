@@ -63,7 +63,7 @@ public class AutomatePOST {
         assertThat(response.path("id"), notNullValue());
         assertThat(response.path("createdAt"), matchesPattern("^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d{1,3})?Z$"));
 
-        // Jackson Databind is required for Hashmap to json object. We et it from maven repository
+        //NOTE: Jackson Databind is required for Hashmap to json object. We et it from maven repository
         //We can use HASHMAP as well. If we have nested object than the syntax will be:
         HashMap<String, Object> mainObj= new HashMap<String, Object>();
 
