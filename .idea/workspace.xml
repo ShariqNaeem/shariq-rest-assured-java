@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1510b0-22ca-4e0b-b57e-2ba08897a2a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/loggingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rest/loggingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rest/loggingFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,25 +57,7 @@
       <recent name="com.rest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.loggingFilter.loggingFilterTest">
-    <configuration name="DownloadFile.fileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shariq-rest-assured-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.DownloadFile" />
-      <option name="METHOD_NAME" value="fileUploadTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.loggingFilter.loggingToFileTest">
     <configuration name="DownloadFile.fileUploadTestUsingInputStream" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
@@ -149,13 +130,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="loggingFilter.loggingToFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shariq-rest-assured-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.loggingFilter" />
+      <option name="METHOD_NAME" value="loggingToFileTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.loggingFilter.loggingToFileTest" />
         <item itemvalue="TestNG.loggingFilter.loggingFilterTest" />
         <item itemvalue="TestNG.JsonSchemaValidator.jsonSchemaValidatorTest" />
         <item itemvalue="TestNG.JsonSchemaValidator.fileUploadTest" />
         <item itemvalue="TestNG.DownloadFile.fileUploadTestUsingInputStream" />
-        <item itemvalue="TestNG.DownloadFile.fileUploadTest" />
       </list>
     </recent_temporary>
   </component>
