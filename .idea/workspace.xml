@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1510b0-22ca-4e0b-b57e-2ba08897a2a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jsonSchemaValidator.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/JsonSchemaValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shariq-rest-assured-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shariq-rest-assured-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/loggingFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/rest/AutomatePOST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rest/AutomatePOST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,7 @@
       <recent name="com.rest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JsonSchemaValidator.jsonSchemaValidatorTest">
+  <component name="RunManager" selected="TestNG.loggingFilter.loggingFilterTest">
     <configuration name="DownloadFile.fileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
@@ -135,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadFile" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="loggingFilter.loggingFilterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +140,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.UploadFile" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.loggingFilter" />
+      <option name="METHOD_NAME" value="loggingFilterTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -154,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.loggingFilter.loggingFilterTest" />
         <item itemvalue="TestNG.JsonSchemaValidator.jsonSchemaValidatorTest" />
         <item itemvalue="TestNG.JsonSchemaValidator.fileUploadTest" />
         <item itemvalue="TestNG.DownloadFile.fileUploadTestUsingInputStream" />
         <item itemvalue="TestNG.DownloadFile.fileUploadTest" />
-        <item itemvalue="TestNG.UploadFile" />
       </list>
     </recent_temporary>
   </component>
