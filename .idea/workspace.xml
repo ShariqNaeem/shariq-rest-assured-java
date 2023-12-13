@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1510b0-22ca-4e0b-b57e-2ba08897a2a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/rest/loggingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rest/loggingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/JacksonApiSerialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shariq-rest-assured-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shariq-rest-assured-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rest/AutomatePOST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rest/AutomatePOST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +61,8 @@
       <recent name="com.rest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.loggingFilter.loggingToFileTest">
-    <configuration name="DownloadFile.fileUploadTestUsingInputStream" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JacksonApiSerialization.serializeListToJsonUsingJackson">
+    <configuration name="JacksonApiSerialization.serializeListToJsonUsingJackson" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +71,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.DownloadFile" />
-      <option name="METHOD_NAME" value="fileUploadTestUsingInputStream" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.JacksonApiSerialization" />
+      <option name="METHOD_NAME" value="serializeListToJsonUsingJackson" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -76,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonSchemaValidator.fileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JacksonApiSerialization.serializeMapToJsonUsingJackson" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +89,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.JsonSchemaValidator" />
-      <option name="METHOD_NAME" value="fileUploadTest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.JacksonApiSerialization" />
+      <option name="METHOD_NAME" value="serializeMapToJsonUsingJackson" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JacksonApiSerialization.serializeListToJsonUsingJackson" />
+        <item itemvalue="TestNG.JacksonApiSerialization.serializeMapToJsonUsingJackson" />
         <item itemvalue="TestNG.loggingFilter.loggingToFileTest" />
         <item itemvalue="TestNG.loggingFilter.loggingFilterTest" />
         <item itemvalue="TestNG.JsonSchemaValidator.jsonSchemaValidatorTest" />
-        <item itemvalue="TestNG.JsonSchemaValidator.fileUploadTest" />
-        <item itemvalue="TestNG.DownloadFile.fileUploadTestUsingInputStream" />
       </list>
     </recent_temporary>
   </component>
