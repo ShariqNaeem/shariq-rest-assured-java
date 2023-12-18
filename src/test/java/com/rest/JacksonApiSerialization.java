@@ -2,6 +2,8 @@ package com.rest;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -117,6 +119,32 @@ public class JacksonApiSerialization {
         .when()
                 .post("/post")
         .then()
+                .assertThat()
+                .body("bookingid", notNullValue());
+    }
+
+    public void serializeJsonArrayUsingJackson() throws JsonProcessingException {
+        ObjectMapper objectMapper = new ObjectMapper();
+
+        ArrayNode arrayNodeList = objectMapper.createArrayNode();
+        ObjectNode obj5001 = objectMapper.createObjectNode();
+        obj5001.put ("id","5001");
+        obj5001.put ("type","None");
+
+        ObjectNode obj5002 = objectMapper.createObjectNode();
+        obj5002.put("id","5002");
+        obj5002.put("type","Glazed");
+
+        arrayNodeList.add(obj5001) ;
+        arrayNodeList.add(obj5002);
+
+        String bodyData = objectMapper.writeValueAsString(arrayNodeList);
+
+        given().
+                body(bodyData)
+                .when()
+                .post("/post")
+                .then()
                 .assertThat()
                 .body("bookingid", notNullValue());
     }

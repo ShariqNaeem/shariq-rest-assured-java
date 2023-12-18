@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1510b0-22ca-4e0b-b57e-2ba08897a2a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/JacksonApiSerialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shariq-rest-assured-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shariq-rest-assured-java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/rest/AutomatePOST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rest/AutomatePOST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rest/JacksonApiSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rest/JacksonApiSerialization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
