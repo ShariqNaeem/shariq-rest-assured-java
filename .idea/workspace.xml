@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1510b0-22ca-4e0b-b57e-2ba08897a2a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/pojo/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/pojo/BookingDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/pojo/BookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/BookingPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/SimplePojoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/rest/JacksonApiSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rest/JacksonApiSerialization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,7 +63,25 @@
       <recent name="com.rest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JacksonApiSerialization.serializeListToJsonUsingJackson">
+  <component name="RunManager" selected="TestNG.SimplePojoTest.validatePostRequestWithPojo">
+    <configuration name="BookingPojo.validateBookingPostRequestWithPojo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shariq-rest-assured-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.BookingPojo" />
+      <option name="METHOD_NAME" value="validateBookingPostRequestWithPojo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JacksonApiSerialization.serializeListToJsonUsingJackson" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
@@ -95,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonSchemaValidator.jsonSchemaValidatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SimplePojoTest.validateBookingPostRequestWithPojo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +127,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.JsonSchemaValidator" />
-      <option name="METHOD_NAME" value="jsonSchemaValidatorTest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.SimplePojoTest" />
+      <option name="METHOD_NAME" value="validateBookingPostRequestWithPojo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="loggingFilter.loggingFilterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SimplePojoTest.validatePostRequestWithPojo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
         <pattern>
@@ -122,26 +145,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.loggingFilter" />
-      <option name="METHOD_NAME" value="loggingFilterTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="loggingFilter.loggingToFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shariq-rest-assured-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.loggingFilter" />
-      <option name="METHOD_NAME" value="loggingToFileTest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.SimplePojoTest" />
+      <option name="METHOD_NAME" value="validatePostRequestWithPojo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -151,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SimplePojoTest.validatePostRequestWithPojo" />
+        <item itemvalue="TestNG.BookingPojo.validateBookingPostRequestWithPojo" />
+        <item itemvalue="TestNG.SimplePojoTest.validateBookingPostRequestWithPojo" />
         <item itemvalue="TestNG.JacksonApiSerialization.serializeListToJsonUsingJackson" />
         <item itemvalue="TestNG.JacksonApiSerialization.serializeMapToJsonUsingJackson" />
-        <item itemvalue="TestNG.loggingFilter.loggingToFileTest" />
-        <item itemvalue="TestNG.loggingFilter.loggingFilterTest" />
-        <item itemvalue="TestNG.JsonSchemaValidator.jsonSchemaValidatorTest" />
       </list>
     </recent_temporary>
   </component>
