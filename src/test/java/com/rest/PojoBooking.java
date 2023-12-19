@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.rest.pojo.Booking;
 import com.rest.pojo.BookingDates;
 import com.rest.pojo.BookingResponse;
-import com.rest.pojo.User;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -18,7 +17,7 @@ import static io.restassured.RestAssured.responseSpecification;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class BookingPojo {
+public class PojoBooking {
     @BeforeClass
     public void init() {
 

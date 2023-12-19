@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1510b0-22ca-4e0b-b57e-2ba08897a2a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/pojo/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/pojo/BookingDates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/pojo/BookingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/BookingPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/SimplePojoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rest/PojoParameterizeDataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rest/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rest/BookingPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rest/PojoBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/rest/SimplePojoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/rest/PojoSimpleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,25 +61,7 @@
       <recent name="com.rest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SimplePojoTest.validatePostRequestWithPojo">
-    <configuration name="BookingPojo.validateBookingPostRequestWithPojo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shariq-rest-assured-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.BookingPojo" />
-      <option name="METHOD_NAME" value="validateBookingPostRequestWithPojo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.PojoSimpleTest.validatePostRequestWithPojo">
     <configuration name="JacksonApiSerialization.serializeListToJsonUsingJackson" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
@@ -100,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JacksonApiSerialization.serializeMapToJsonUsingJackson" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PojoBooking.validateBookingPostRequestWithPojo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
         <pattern>
@@ -109,25 +89,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.JacksonApiSerialization" />
-      <option name="METHOD_NAME" value="serializeMapToJsonUsingJackson" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimplePojoTest.validateBookingPostRequestWithPojo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shariq-rest-assured-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.SimplePojoTest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.PojoBooking" />
       <option name="METHOD_NAME" value="validateBookingPostRequestWithPojo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -136,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplePojoTest.validatePostRequestWithPojo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PojoParameterizeDataProvider.validatePostRequestWithPojoDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shariq-rest-assured-java" />
       <extension name="coverage">
         <pattern>
@@ -145,7 +107,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.rest.SimplePojoTest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.PojoParameterizeDataProvider" />
+      <option name="METHOD_NAME" value="validatePostRequestWithPojoDataProvider" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PojoSimpleTest.validateBookingPostRequestWithPojo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shariq-rest-assured-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.PojoSimpleTest" />
+      <option name="METHOD_NAME" value="validateBookingPostRequestWithPojo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PojoSimpleTest.validatePostRequestWithPojo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shariq-rest-assured-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.rest.PojoSimpleTest" />
       <option name="METHOD_NAME" value="validatePostRequestWithPojo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -156,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SimplePojoTest.validatePostRequestWithPojo" />
-        <item itemvalue="TestNG.BookingPojo.validateBookingPostRequestWithPojo" />
-        <item itemvalue="TestNG.SimplePojoTest.validateBookingPostRequestWithPojo" />
+        <item itemvalue="TestNG.PojoSimpleTest.validatePostRequestWithPojo" />
+        <item itemvalue="TestNG.PojoParameterizeDataProvider.validatePostRequestWithPojoDataProvider" />
+        <item itemvalue="TestNG.PojoBooking.validateBookingPostRequestWithPojo" />
+        <item itemvalue="TestNG.PojoSimpleTest.validateBookingPostRequestWithPojo" />
         <item itemvalue="TestNG.JacksonApiSerialization.serializeListToJsonUsingJackson" />
-        <item itemvalue="TestNG.JacksonApiSerialization.serializeMapToJsonUsingJackson" />
       </list>
     </recent_temporary>
   </component>

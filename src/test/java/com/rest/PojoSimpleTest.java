@@ -1,27 +1,19 @@
 package com.rest;
 
-import com.rest.pojo.Booking;
-import com.rest.pojo.BookingDates;
 import com.rest.pojo.User;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.LogDetail;
-import io.restassured.response.Response;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.matchesPattern;
 import static org.hamcrest.Matchers.notNullValue;
 
-public class SimplePojoTest {
+public class PojoSimpleTest {
     @BeforeClass
     public void init() {
 
